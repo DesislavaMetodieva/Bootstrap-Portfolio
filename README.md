@@ -1,7 +1,7 @@
 # Bootstrap-Portfolio
 
 # Description
-The goal for this project was to gain more experience in implementing Bootstrap framework for my portfolio. It allowed me to leverage their grid system and to structure the page easy without needing to make much CSS tweeks on my custom code. Also, using Bootstrap, it allowed me to experience a formal standard which can be used for building various sites. 
+The goal for this project was to gain more experience in implementing Bootstrap framework for my portfolio. It allowed me to leverage their grid system and to structure the page easy without needing to make much CSS tweaks on my custom code. Also, using Bootstrap, it allowed me to experience a formal standard which can be used for building various sites. 
 
 # Installation
 No need for specific installation, you need only a web browser and good internet connection to visit the URL below.
@@ -16,3 +16,44 @@ No collaborators for now.
 
 # License
 Please refer to the LICENSE in the repo.
+
+# Goals for the project
+
+A navigation bar
+
+A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own.
+
+Include links that are applicable to your portfolio.
+
+Links should navigate to the appropriate sections
+
+A hero section
+
+A jumbotron featuring your picture, your name, and any other information you'd like to include.
+A work section
+
+A section displaying your work in grid.
+
+If you need to use placeholder image use placehold.coLinks to an external site.
+
+Use Bootstrap cards for each project.
+
+The description should give a brief overview of the work.
+
+Each project will eventually link to your class project work!
+
+A skills section
+
+List out the skills you expect to learn from the bootcamp.
+An about/contact section
+
+An About Me section in the same row.
+A footer section
+
+All hyperlinks should have a hover effect.
+
+All buttons should display a box shadow upon hover.
+
+Your Bootstrap solution should minimize use of media queries.
+
+Deploy your new Bootstrap-powered portfolio to GitHub Pages.
