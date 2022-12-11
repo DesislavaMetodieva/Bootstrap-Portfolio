@@ -1,5 +1,4 @@
 
-
 body {
     -webkit-font-smoothing: antialiased;
 }
@@ -22,11 +21,11 @@ section.hero {
 }
 
 /* Sticks the nav on top of the page and when page is scrolled it is still visible */ 
+
 nav {
     position: fixed;
     width: 100%;
 }
-
 
 div.item {
 display: flex;
