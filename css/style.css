@@ -80,6 +80,38 @@ div.col-lg-6 {
     margin-bottom: 4rem;
 }
 
+
+/* skills */
+
+.logo-img {
+    max-width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.triple-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.triple-item {
+    text-align: center;
+    width: 33%;
+    flex-basis: auto;
+    flex-direction: row;
+    padding: 0px 24px 0 24px;
+}
+
+.img-space {
+    padding-bottom: 1rem;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 779px) {

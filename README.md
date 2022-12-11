@@ -43,7 +43,7 @@ Each project will eventually link to your class project work!
 
 A skills section
 
-List out the skills you expect to learn from the bootcamp.
+List out the skills you expect to learn from the bootcamp. - ok
 
 An about/contact section
 
