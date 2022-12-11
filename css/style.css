@@ -1,1 +1,91 @@
 
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+img.image-fluid {
+    border-radius: 45%;
+    max-width: 400px;
+}
+
+section.hero {
+    display: flex;
+}
+
+.flex-item {
+    display: flex;
+}
+
+#navbarNavDropdown {
+    flex-direction: row-reverse;
+}
+
+/* Sticks the nav on top of the page and when page is scrolled it is still visible */ 
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+
+div.item {
+display: flex;
+margin: 0px 0px 30px 0px;
+}
+
+h1 {
+font-size: clamp(16px, 4vw, 28px);
+}
+
+h2 {
+font-size: clamp(32px, 8vw, 40px);
+}
+
+h3 {
+font-size: clamp(16px, 3vw, 28px);
+}
+
+.heading {
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 99;
+}
+/* Portfolio */
+
+.wrapper {
+padding: 4rem 2rem;
+margin-bottom: 2rem;
+}
+
+.item {
+    height: auto;
+}
+
+div.col-lg-6 {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    height: 80vh;
+}
+
+/* work section */
+
+.work-section {
+    margin-bottom: 4rem;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 779px) {
+
+    div.mobile {
+        display: none;
+    }
+}

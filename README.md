@@ -19,35 +19,36 @@ Please refer to the LICENSE in the repo.
 
 # Goals for the project
 
-A navigation bar
+A navigation bar - ok 
 
-A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own.
+A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own. - ok
 
-Include links that are applicable to your portfolio.
+Include links that are applicable to your portfolio.   - ok
 
-Links should navigate to the appropriate sections
+Links should navigate to the appropriate sections - ok
 
-A hero section
+A hero section - ok 
 
-A jumbotron featuring your picture, your name, and any other information you'd like to include.
+A jumbotron featuring your picture, your name, and any other information you'd like to include. - ok 
+
 A work section
 
-A section displaying your work in grid.
+A section displaying your work in grid. - ok
 
-If you need to use placeholder image use placehold.coLinks to an external site.
+Use Bootstrap cards for each project. - ok
 
-Use Bootstrap cards for each project.
-
-The description should give a brief overview of the work.
+The description should give a brief overview of the work. - ok
 
 Each project will eventually link to your class project work!
 
 A skills section
 
 List out the skills you expect to learn from the bootcamp.
+
 An about/contact section
 
 An About Me section in the same row.
+
 A footer section
 
 All hyperlinks should have a hover effect.
