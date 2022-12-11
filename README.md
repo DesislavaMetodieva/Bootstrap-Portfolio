@@ -45,15 +45,15 @@ A skills section
 
 List out the skills you expect to learn from the bootcamp. - ok
 
-An about/contact section
+An about/contact section - ok
 
-An About Me section in the same row.
+An About Me section in the same row. - ok 
 
-A footer section
+A footer section - ok
 
 All hyperlinks should have a hover effect.
 
-All buttons should display a box shadow upon hover.
+All buttons should display a box shadow upon hover. 
 
 Your Bootstrap solution should minimize use of media queries.
 

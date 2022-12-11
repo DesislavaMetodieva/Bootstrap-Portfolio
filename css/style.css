@@ -3,6 +3,7 @@
     --space-grey: #eeeffa;
     --pinky: #ffe8e8;
     --mamba: #000;
+    --transition: all 0.25scubic-bezier(0.645,0.045,0.355,1);
     }
 
 body {
@@ -65,6 +66,10 @@ font-size: clamp(16px, 3vw, 28px);
 
 .btn-primary{
     background-color: var(--blue-lagoon) !important; 
+}
+
+.btn-primary:hover {
+    box-shadow: 0px 6px 16px 0px #0062ccba;
 }
 
 
@@ -182,6 +187,8 @@ div.col-lg-6 {
     padding: 0 40px;
   }
   
+/* Hover effects */
+
 
 /* Media queries */
 
