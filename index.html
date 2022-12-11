@@ -16,6 +16,7 @@
 
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
         <a class="navbar-brand flex-item" href="#">Desi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -36,33 +37,32 @@
               </li>
           </ul>
         </div>
+      </div>
       </nav>
     
       <!-- hero -->
-      
-      <header class="jumbotron">
+      <main>
+      <header class="jumbotron back">
 
         <!-- .container-fluid for a full width container, spanning the entire width of the viewport. -->
         
-        <section class="hero">
+        <section class="hero container wrapper">
 
           <div class="col-lg-6">
-            <div class="item">
-          <h1>Hello, my name is</h1>
-          </div>
+            
 
           <div class="item">
-            <h2>Desi Metodieva - a junior front-desk developer, currently based in London.</h2>
+            <h2>Hi 👋 I'm Desi Metodieva</h2>
             </div>
 
             <div class="item">
-              <h3>I love building accessible and user-friendly experiences on the web.</h3>
+              <h3 class="subheader">A junior front-end developer 👩‍💻 based in London 🇬🇧 I love building accessible and user-friendly experiences on the web.</h3>
               </div>
 
               <!-- button to link to my Portfolio -->
 
               <div class="item">
-              <a href="mailto:metodieva.desislava@gmail.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Let's get in touch!</a>
+              <a href="mailto:metodieva.desislava@gmail.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Get in touch</a>
             </div>
 
           </div>
@@ -71,7 +71,7 @@
 
             <div class="col-lg-6 my-auto mobile">
               <div class="device-container">
-                <img src="images/portrait.jpg" class="img-fluid" alt="author image">
+                <img src="images/portrait.jpg" class="img-fluid rounded-pill" alt="author image">
               </div>
             </div>
 
@@ -87,10 +87,10 @@
 </div> 
 <div class="container px-4">
 
-<div class="row">
-  <div class="col-sm-12 col-md-12 col-lg-6">
-    <div class="card p-5">
-      <img src="images/desi-m.png" class="card-img-top" alt="bakery website">
+<div class="row folio">
+  <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
+    <div class="card p-5 border border-primary rounded">
+      <img src="images/desi-m.png" class="card-img-top rounded" alt="bakery website">
       <div class="card-body">
         <h5 class="card-title">The Family Bakery</h5>
         <p class="card-text">A minimal website showcasing the products of my family own baking business.</p>
@@ -98,9 +98,9 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-12 col-md-12 col-lg-6">
-    <div class="card p-5">
-      <img src="images/azadstudio.png" class="card-img-top" alt="online shop for ceramics">
+  <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
+    <div class="card p-5 border border-primary rounded">
+      <img src="images/azadstudio.png" class="card-img-top rounded" alt="online shop for ceramics">
       <div class="card-body">
         <h5 class="card-title">AzadStudio</h5>
         <p class="card-text">This is an eCommerce website selling ceramic products integrated with the Etsy API. </p>
@@ -111,9 +111,9 @@
 
 
 
-  <div class="col-sm-12 col-md-12 col-lg-6">
-    <div class="card p-5">
-      <img src="images/Horiseon.png" class="card-img-top" alt="...">
+  <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
+    <div class="card p-5 border border-primary rounded">
+      <img src="images/Horiseon.png" class="card-img-top rounded" alt="refactoring brainstorming between colleagues">
       <div class="card-body">
         <h5 class="card-title">Horiseon</h5>
         <p class="card-text">This is the final version of the website after refactoring the code source.</p>
@@ -122,9 +122,9 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-12 col-md-12 col-lg-6">
-    <div class="card p-5">
-      <img src="images/desi-portfolio-small.png" class="card-img-top" alt="...">
+  <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
+    <div class="card p-5 border border-primary rounded">
+      <img src="images/desi-portfolio-small.png" class="card-img-top rounded" alt="author picture">
       <div class="card-body">
         <h5 class="card-title">Personal portfolio</h5>
         <p class="card-text">This is my first portfolio website</p>
@@ -143,45 +143,45 @@
     <h2 class="heading">Recently learnt skills</h2>
   </div>
 <div class="triple-container">
-    <div class="triple-item">
+    <div class="triple-item rounded">
       <pictire>
         <img class="img-space" src="images/html_logo.svg" alt="html logo">
       </pictire>
-      <p>Learning how to use semantic HTML is a must nowadays as improves accessability and SEO</p>
+      <p>Semantic HTML that improves accessability and SEO</p>
     </div>
-    <div class="triple-item">
+    <div class="triple-item rounded">
       <pictire>
         <img class="img-space" src="images/css_logo.svg" alt="css logo">
       </pictire>
-      <p>Learning CSS is important because it controls all design-related aspects of your website. Typography, colours, page layouts and any other visual aspects</p>
+      <p>Typography, colours and page layouts</p>
     </div>
     
-    <div class="triple-item">
+    <div class="triple-item rounded">
       <pictire>
         <img class="img-space" src="images/js_logo.svg" alt="java script logo">
       </pictire>
-      <p>Javascript everywhere (i.e. node.js) has really become the default web-development paradigm. JS gives the life to every web application.</p>
+      <p>JS gives the life to every web application.</p>
     </div>
 
-    <div class="triple-item">
+    <div class="triple-item rounded ">
       <pictire>
         <img class="img-space" src="images/accessibility_logo.svg" alt="accessability logo">
       </pictire>
-      <p>Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services.</p>
+      <p>Accessibility standards and best practices</p>
     </div>
 
-    <div class="triple-item">
+    <div class="triple-item rounded">
       <pictire>
         <img class="img-space" src="images/responsive_logo.svg" alt="responsive design logo">
       </pictire>
-      <p>A good responsive design also improves readability, increases the time spent on a website, it enhances interaction or, in the case of e-commerce, improves sales.</p>
+      <p>Responsive website rules and layouts</p>
     </div>
 
-    <div class="triple-item">
+    <div class="triple-item rounded">
       <pictire>
         <img class="img-space" src="images/library_logo.svg" alt="library logo">
       </pictire>
-      <p>Learning Front-end libraries and frameworks such as React.js, jQuery, BootStrap is part of the learning path for every web engeneer.</p>
+      <p>Libraries and frameworks such as React.js, jQuery, BootStrap</p>
     </div>
 
     </div>
@@ -193,13 +193,38 @@
 
 <!-- About me information -->
 
-<section class="container" id="aboutMe">
-<h2>About Me</h2>
-</section>
+<section class="container  wrapper" id="aboutMe">
+
+  <h2 class="heading work-section">About Me</h2>
+  <div class="row work-section">
+    <div class="col-sm-12 col-lg-6 justify-content-start">
+      <p>My role as Online Solution Lead is a solutions focused and technology facing. I work closely with new clients to deliver their on-boarding projects on-time and liaise with all Internal tech, sales, implementation and operations teams that all client requirements are met and ready for Go Live. I manage a team of Online Solutions consultants based in EMEA, APAC and support and train a US team if needed.</p>
+    </div>
+    <div class="col-sm-12 col-lg-6 justify-content-start">
+      <p>For the past 2 years I am learning more and more Front-end development technologies such as HTML, CSS, JavaScript, HTTP API's and basic networking. I find building user interfaces really intesting and rewarding. Accessability is the core purpose of the web. To make the information accessible to people through the internet in a format they choose is a must for me and I feel this is one of the most important tasks every web developer should consider when they build an application.</p>
+    </div>
+    </div>
+    <div class="item center">
+      <a href="mailto:metodieva.desislava@gmail.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Say Hello</a>
+    </div>
+  </section>
+</main>
+
 
 
 <!-- Footer -->
-
+<section class="container-fluid footer-bg">
+<footer class="container" id="contact">
+  <h5 class="contact-h text-white">Contact</h5>
+<ul class="contact">
+ <li class="contact-items"><a class="dark" href="">123.456.7890</a></li>
+  <li class="contact-items"><a class="dark" href="mailto:metodieva.desislava@gmail.com">metodieva.desislava@gmail.com</a></li>
+ <li class="contact-items"><a class="dark" href="https://github.com/DesislavaMetodieva" target="_blank">GitHub</a></li>
+ <li class="contact-items"><a class="dark" href="#">Twitter</a></li>
+ <li class="contact-items"> <a class="dark" href="#">Spotify</a></li>
+ </ul>
+</footer>
+</section>
 
 </body>
 </html>

@@ -1,3 +1,9 @@
+:root {
+    --blue-lagoon: #094af1;
+    --space-grey: #eeeffa;
+    --pinky: #ffe8e8;
+    --mamba: #000;
+    }
 
 body {
     -webkit-font-smoothing: antialiased;
@@ -44,6 +50,10 @@ h3 {
 font-size: clamp(16px, 3vw, 28px);
 }
 
+.subheader{
+    font-weight: 300;
+}
+
 .heading {
     text-align: center;
 }
@@ -52,13 +62,33 @@ font-size: clamp(16px, 3vw, 28px);
     position: fixed;
     z-index: 99;
 }
+
+.btn-primary{
+    background-color: var(--blue-lagoon) !important; 
+}
+
+
 /* Portfolio */
+.rounded {
+    border-radius: 0.5rem!important;
+}
+
+.back{
+    background-color: var(--pinky);
+}
+
+.footer-bg{
+ background-color: var(--mamba);
+ padding: 2rem 0;
+}
 
 .wrapper {
 padding: 4rem 2rem;
 margin-bottom: 2rem;
 }
-
+.folio{
+    align-items: start;
+}
 .item {
     height: auto;
 }
@@ -101,22 +131,83 @@ div.col-lg-6 {
 }
 
 .triple-item {
-    text-align: center;
-    width: 33%;
+    text-align: left;
+    width: 31.5%;
     flex-basis: auto;
     flex-direction: row;
-    padding: 0px 24px 0 24px;
+    padding: 0.5rem;
+    display: flex;
+    background-color: var(--space-grey);
+    margin: 0 1rem 1rem 0;
 }
 
 .img-space {
-    padding-bottom: 1rem;
+    padding-right: 1rem;
 }
 
+
+/* About Me */
+
+.aboutMe {
+    text-align: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+/* footer */
+
+.aboutMeParagraph{
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  .contact {
+    display: flex;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-items {
+    list-style-type: none; 
+    margin-right: 8px;
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .contact-h{
+    padding: 0 40px;
+  }
+  
+
 /* Media queries */
+
+@media screen and (max-width: 991px) {
+    .triple-item{
+        width: 46%;
+    }
+}
 
 @media screen and (max-width: 779px) {
 
     div.mobile {
         display: none;
     }
+
+    .triple-container{
+        flex-direction: column;
+    }
+
+    .triple-item{
+        width: 100%;
+    }
+
+    .contact{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 }
