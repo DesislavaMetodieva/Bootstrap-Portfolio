@@ -53,7 +53,7 @@ A footer section - ok
 
 All hyperlinks should have a hover effect.
 
-All buttons should display a box shadow upon hover. 
+All buttons should display a box shadow upon hover. - ok
 
 Your Bootstrap solution should minimize use of media queries.
 

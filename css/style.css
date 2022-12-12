@@ -74,6 +74,7 @@ font-size: clamp(16px, 3vw, 28px);
 
 
 /* Portfolio */
+
 .rounded {
     border-radius: 0.5rem!important;
 }
@@ -161,6 +162,7 @@ div.col-lg-6 {
     justify-content: center;
 }
 
+
 /* footer */
 
 .aboutMeParagraph{
@@ -188,6 +190,7 @@ div.col-lg-6 {
   }
   
 /* Hover effects */
+
 
 
 /* Media queries */
