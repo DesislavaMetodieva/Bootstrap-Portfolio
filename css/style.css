@@ -220,12 +220,15 @@ div.col-lg-6 {
   }
 
 
-
 /* Media queries */
 
 @media screen and (max-width: 991px) {
     .triple-item{
         width: 46%;
+    }
+
+    .hero {
+        height: 60vh;
     }
 }
 
@@ -246,6 +249,10 @@ div.col-lg-6 {
     .contact{
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .hero {
+        height: 40vh;
     }
 
 }
