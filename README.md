@@ -9,7 +9,7 @@ No need for specific installation, you need only a web browser and good internet
 # Usage
 Please follow the URL, so you can open the application: https://desislavametodieva.github.io/Bootstrap-Portfolio/
 
-![Placeholder for site screenshot]
+![image](https://user-images.githubusercontent.com/82023025/207159268-fb2c05ea-e38b-4a83-8761-2b905f471b8c.png)
 
 # Credits
 No collaborators for now.
